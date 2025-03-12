@@ -16,8 +16,8 @@ public class ElevReader extends BaseReader{
 
     public List<Aplicant> readAplicanti() throws FileNotFoundException {
         Scanner input2 = new Scanner(new File(super.getFileName()));
-        input2.useDelimiter(",|\n");
-        List<Aplicant> elevi = new ArrayList<Aplicant>();
+        input2.useDelimiter("[,\n]");
+        List<Aplicant> elevi = new ArrayList<>();
 
         while (input2.hasNext()) {
             Elev elev = new Elev();

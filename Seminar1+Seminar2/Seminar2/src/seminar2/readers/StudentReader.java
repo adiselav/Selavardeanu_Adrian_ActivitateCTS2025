@@ -16,14 +16,14 @@ public class StudentReader extends BaseReader{
 
     public List<Aplicant> readAplicanti() throws FileNotFoundException, NumberFormatException {
         Scanner input = new Scanner(new File(super.getFileName()));
-        input.useDelimiter(",|\n");
-        List<Aplicant> studenti = new ArrayList<Aplicant>();
+        input.useDelimiter("[,\n]");
+        List<Aplicant> studenti = new ArrayList<>();
 
         while (input.hasNext()) {
             Student student = new Student();
             citireAplicant(student, input);
             int an_studii = input.nextInt();
-            String facultate = (input.next()).toString();
+            String facultate = (input.next());
             student.setFacultate(facultate);
             student.setAn_studii(an_studii);
             studenti.add(student);

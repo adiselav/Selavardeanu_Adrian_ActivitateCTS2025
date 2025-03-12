@@ -5,8 +5,12 @@ import seminar2.readers.BaseReader;
 
 import java.io.FileNotFoundException;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Program {
+
+	private static final Logger LOGGER = Logger.getLogger(Program.class.getName());
 
 	public static void main(String[] args) {
 		List<Aplicant> listaAplicanti;
@@ -16,9 +20,7 @@ public class Program {
 			for(Aplicant aplicant:listaAplicanti)
 				System.out.println(aplicant.toString());
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			LOGGER.log(Level.SEVERE, "Fișierul nu a fost găsit: angajati.txt", e);
 		}
 	}
-
 }

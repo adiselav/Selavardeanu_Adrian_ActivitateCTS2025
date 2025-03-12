@@ -17,7 +17,7 @@ public class AngajatReader extends BaseReader{
     public List<Aplicant> readAplicanti() throws FileNotFoundException {
         Scanner input2 = new Scanner(new File(super.getFileName()));
         input2.useDelimiter(",");
-        List<Aplicant> angajati = new ArrayList<Aplicant>();
+        List<Aplicant> angajati = new ArrayList<>();
 
         while (input2.hasNext()) {
             Angajat angajat = new Angajat();
