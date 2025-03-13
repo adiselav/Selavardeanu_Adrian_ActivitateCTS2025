@@ -5,7 +5,7 @@ public abstract class Aplicant{
 	protected String prenume;
 	protected int varsta;
 	protected int punctaj;
-	protected int nr_proiecte;
+	protected int nrProiecte;
 	protected String[] denumireProiect;
 
     public void setNume(String nume) {
@@ -34,9 +34,9 @@ public abstract class Aplicant{
 		// TODO Auto-generated constructor stub
 	}
 
-	public void setNr_proiecte(int nr_proiecte, String[] denumireProiect) {
+	public void setNrProiecte(int nrProiecte, String[] denumireProiect) {
 
-		this.nr_proiecte = nr_proiecte;
+		this.nrProiecte = nrProiecte;
 		this.denumireProiect = denumireProiect;
 	}
 
