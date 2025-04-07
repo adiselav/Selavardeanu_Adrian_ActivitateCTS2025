@@ -3,7 +3,7 @@ package ro.cts.main;
 import ro.cts.anunturi.AgentieImobiliara;
 import ro.cts.anunturi.Anunt;
 
-//instanta unica per obiect => regidtry
+//instanta unica per obiect => registry
 
 public class MainRegistry {
     public static void main(String[] args) {
