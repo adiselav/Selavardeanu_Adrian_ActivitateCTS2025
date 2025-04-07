@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Test1/Builder/Builder.iml" filepath="$PROJECT_DIR$/Test1/Builder/Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar5/Builder/Builder1.iml" filepath="$PROJECT_DIR$/seminar5/Builder/Builder1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar5/Builderv2/Builderv2.iml" filepath="$PROJECT_DIR$/seminar5/Builderv2/Builderv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CTS_1099_Seminar1/CTS_1099_Seminar1.iml" filepath="$PROJECT_DIR$/CTS_1099_Seminar1/CTS_1099_Seminar1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton/ExempluSingleton/ExempluSingleton.iml" filepath="$PROJECT_DIR$/Singleton/ExempluSingleton/ExempluSingleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test1/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/Test1/FactoryMethod/FactoryMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar5/FactoryMethod/FactoryMethod1.iml" filepath="$PROJECT_DIR$/seminar5/FactoryMethod/FactoryMethod1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test1/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Test1/Prototype/Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar4/Prototype/Prototype1.iml" filepath="$PROJECT_DIR$/Seminar4/Prototype/Prototype1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Selavardeanu_Adrian_ActivitateCTS2025.iml" filepath="$PROJECT_DIR$/.idea/Selavardeanu_Adrian_ActivitateCTS2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CTS_1099_Seminar1/Seminar1/Seminar1.iml" filepath="$PROJECT_DIR$/CTS_1099_Seminar1/Seminar1/Seminar1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar1+Seminar2/Seminar1/Seminar11.iml" filepath="$PROJECT_DIR$/Seminar1+Seminar2/Seminar1/Seminar11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar1+Seminar2/Seminar2/Seminar2.iml" filepath="$PROJECT_DIR$/Seminar1+Seminar2/Seminar2/Seminar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton/Seminar3/Seminar3.iml" filepath="$PROJECT_DIR$/Singleton/Seminar3/Seminar3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test1/SimpleFactory/SimpleFactory.iml" filepath="$PROJECT_DIR$/Test1/SimpleFactory/SimpleFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar4/SimpleFactory/SimpleFactory1.iml" filepath="$PROJECT_DIR$/Seminar4/SimpleFactory/SimpleFactory1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test1/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Test1/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test1/SingletonRegistry/SingletonRegistry.iml" filepath="$PROJECT_DIR$/Test1/SingletonRegistry/SingletonRegistry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar6/seminar6.iml" filepath="$PROJECT_DIR$/seminar6/seminar6.iml" />
+    </modules>
+  </component>
+</project>

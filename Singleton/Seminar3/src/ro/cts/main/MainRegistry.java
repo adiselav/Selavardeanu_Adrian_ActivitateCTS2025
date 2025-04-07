@@ -1,7 +1,7 @@
 package ro.cts.main;
 
-import ro.cts.anunturi.AgentieImobiliara;
-import ro.cts.anunturi.Anunt;
+import ro.cts.registry.AgentieImobiliara;
+import ro.cts.registry.Anunt;
 
 //instanta unica per obiect => registry
 

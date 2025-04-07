@@ -1,4 +1,4 @@
-package ro.cts.anunturi;
+package ro.cts.registry;
 
 public class Anunt {
     private String adresa;

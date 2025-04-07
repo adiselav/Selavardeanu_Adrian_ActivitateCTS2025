@@ -1,4 +1,4 @@
-package ro.cts.anunturi;
+package ro.cts.registry;
 
 import java.util.HashMap;
 import java.util.Map;

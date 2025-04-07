@@ -1,4 +1,4 @@
-package ro.cts.pachet.seminar3;
+package ro.cts.models;
 
 public class AgentieImobiliaraLazy {
     private String nume;

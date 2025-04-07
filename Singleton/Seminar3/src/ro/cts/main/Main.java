@@ -1,7 +1,7 @@
 package ro.cts.main;
 
-import ro.cts.pachet.seminar3.AgentieImobiliaraEager;
-import ro.cts.pachet.seminar3.AgentieImobiliaraLazy;
+import ro.cts.models.AgentieImobiliaraEager;
+import ro.cts.models.AgentieImobiliaraLazy;
 
 public class Main {
     public static void main(String[] args) {
