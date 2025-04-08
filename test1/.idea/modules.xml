@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleFactory/SimpleFactory.iml" filepath="$PROJECT_DIR$/SimpleFactory/SimpleFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingletonEager/SingletonEager.iml" filepath="$PROJECT_DIR$/SingletonEager/SingletonEager.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingletonRegistry/SingletonRegistry.iml" filepath="$PROJECT_DIR$/SingletonRegistry/SingletonRegistry.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test1.iml" filepath="$PROJECT_DIR$/Test1.iml" />
     </modules>
