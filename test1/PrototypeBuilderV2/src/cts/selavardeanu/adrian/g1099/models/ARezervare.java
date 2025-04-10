@@ -25,7 +25,7 @@ public abstract class ARezervare {
         this.nrBai = 0;
     }
 
-    public ARezervare(String nume, int nrPaturi, float pret, int nrPersoane, String[] persoane, boolean isFumator, boolean hasBalcon, int nrBai) {
+    protected ARezervare(String nume, int nrPaturi, float pret, int nrPersoane, String[] persoane, boolean isFumator, boolean hasBalcon, int nrBai) {
         this.nume = nume;
         this.nrPaturi = (nrPaturi > 0) ? nrPaturi : 1;
         this.pret = pret;

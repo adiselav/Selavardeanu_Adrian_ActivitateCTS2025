@@ -16,7 +16,7 @@ public class ManagerRestaurant {
 
     public synchronized static ManagerRestaurant getInstance(String nume, int experienta, float salariu, int angajati){
         if (managerRestaurant == null) {
-            managerRestaurant = new ManagerRestaurant(nume,  experienta, salariu, angajati);
+            managerRestaurant = new ManagerRestaurant(nume, experienta, salariu, angajati);
         }
         return managerRestaurant;
     }

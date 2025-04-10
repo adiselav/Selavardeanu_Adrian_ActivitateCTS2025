@@ -25,6 +25,5 @@ public class Main {
 
         friptura2.serveste();
         peste2.serveste();
-
     }
 }
