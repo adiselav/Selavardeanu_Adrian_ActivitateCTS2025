@@ -12,7 +12,6 @@ public class RegistrulComertului {
         this.program = program;
         this.buget = buget;
     }
-
     public Firma getFirma(String nume, int cifraAfaceri, String adresa, int nrAngajati){
         if (!firme.containsKey(nume)) {
             Firma firma = new Firma(nume, cifraAfaceri,adresa,nrAngajati);

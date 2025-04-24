@@ -3,6 +3,7 @@ package ro.cts.models;
 public class Meniu extends AMeniu{
 
     public Meniu() {
+        super();
     }
 
     public Meniu(int nrProduse, String culoare, String nume, int nrPagini, float coperto) {

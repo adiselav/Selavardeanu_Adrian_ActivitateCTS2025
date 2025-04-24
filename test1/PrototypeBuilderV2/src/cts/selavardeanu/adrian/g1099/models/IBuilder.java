@@ -8,4 +8,3 @@ public interface IBuilder {
     IBuilder setHasBalcon(boolean hasBalcon);
     IBuilder setNrBai(int nrBai);
 }
-

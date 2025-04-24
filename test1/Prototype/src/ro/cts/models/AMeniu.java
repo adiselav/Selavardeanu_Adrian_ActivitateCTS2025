@@ -7,7 +7,7 @@ public abstract class AMeniu {
     protected int nrPagini;
     protected float coperto;
 
-    public AMeniu() {
+   protected AMeniu() {
         this.nrProduse = 100;
         this.culoare = "rosu";
         this.nume = "Hanul lui Manuc";
@@ -15,7 +15,7 @@ public abstract class AMeniu {
         this.coperto = 2.20f;
     }
 
-    public AMeniu(int nrProduse, String culoare, String nume, int nrPagini, float coperto) {
+    protected AMeniu(int nrProduse, String culoare, String nume, int nrPagini, float coperto) {
         this.nrProduse = nrProduse;
         this.culoare = culoare;
         this.nume = nume;
