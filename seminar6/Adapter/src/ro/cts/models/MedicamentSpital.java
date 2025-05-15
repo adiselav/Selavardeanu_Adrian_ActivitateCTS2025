@@ -11,7 +11,7 @@ public class MedicamentSpital {
 
     public void achizitioneazaMedicament(){
         prezintaReteta();
-        System.out.println("Medicamentul " + nume + " costa " + pret + "lei");
+        System.out.println("Medicamentul " + nume + " costa " + pret + " lei");
     }
 
     private void prezintaReteta(){

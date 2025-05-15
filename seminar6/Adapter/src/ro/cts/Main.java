@@ -12,9 +12,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        MedicamentFarmacie medicamentFarmacie = new MedicamentFarmacie("Coldrex",30,true, "01.05.2025");
+        MedicamentFarmacie medicamentFarmacie = new MedicamentFarmacie("Coldrex Maxgrip Lemon",30,true, "01.05.2025");
         vindeMedicamente(medicamentFarmacie);
-        MedicamentSpital medicamentSpital = new MedicamentSpital("Gaviscon", 30);
+        MedicamentSpital medicamentSpital = new MedicamentSpital("Gaviscon Mentol", 30);
         AdaptorMedicament adaptorMedicament = new AdaptorMedicament(medicamentSpital);
         vindeMedicamente(adaptorMedicament);
     }
