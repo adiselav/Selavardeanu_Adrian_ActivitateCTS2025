@@ -9,7 +9,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         System.out.println();
-        
+
         Produs produs1 = new Produs(16,"Shaorma",true);
         Produs produs2 = new Produs(30,"Pizza",true);
         Produs produs3 = new Produs(15,"Mici",true);
