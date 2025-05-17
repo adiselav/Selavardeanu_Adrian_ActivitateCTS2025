@@ -6,7 +6,7 @@ import ro.cts.models.Meniu;
 public class Main {
     public static void main(String[] args) {
         System.out.println();
-        
+
         Meniu meniu = new Meniu();
 
         meniu.getProdus("Pizza", 30);
