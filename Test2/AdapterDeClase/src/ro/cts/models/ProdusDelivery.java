@@ -1,6 +1,7 @@
 package ro.cts.models;
 
-public class ProdusDelivery {
+public class ProdusDelivery implements IProdusDelivery{
+
     private String nume;
     private float pret;
     private int km;
@@ -23,7 +24,8 @@ public class ProdusDelivery {
         return km;
     }
 
-    public void livrareProdus(){
+    @Override
+    public void livrareProdus() {
         System.out.println("Se livreaza " + this.nume);
         if (this.km<3){
             System.out.println("cu livrare gratuita");
