@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdapterDeClase/AdapterDeClase.iml" filepath="$PROJECT_DIR$/AdapterDeClase/AdapterDeClase.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdapterDeObiecte/AdapterDeObiecte.iml" filepath="$PROJECT_DIR$/AdapterDeObiecte/AdapterDeObiecte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facade/Facade.iml" filepath="$PROJECT_DIR$/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test2.iml" filepath="$PROJECT_DIR$/Test2.iml" />
     </modules>
   </component>
