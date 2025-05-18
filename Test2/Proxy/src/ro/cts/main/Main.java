@@ -7,7 +7,7 @@ import ro.cts.models.RezervareProxy;
 
 public class Main {
     public static void main(String[] args) {
-        
+
             IRezervare rezervare = new Rezervare();
             IRezervare proxy = new RezervareProxy(rezervare);
             proxy.rezerva("Mihai Popescu", 2);
