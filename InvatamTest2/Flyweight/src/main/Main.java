@@ -16,7 +16,7 @@ public class Main {
 
         Optionale optionale1 = new Optionale(true, 5);
         Optionale optionale2 = new Optionale(false, 3);
-        
+
         try {
             agentie.getPachetTuristic(1024).rezerva(optionale1);
             agentie.getPachetTuristic(2048).rezerva(optionale2);

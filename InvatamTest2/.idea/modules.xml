@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ChainOfResponsibility/ChainOfResponsibility.iml" filepath="$PROJECT_DIR$/ChainOfResponsibility/ChainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/Composite/Composite.iml" filepath="$PROJECT_DIR$/Composite/Composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Decorator/Decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Facade/Facade.iml" filepath="$PROJECT_DIR$/Facade/Facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Flyweight/Flyweight.iml" filepath="$PROJECT_DIR$/Flyweight/Flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/InvatamTest2.iml" filepath="$PROJECT_DIR$/InvatamTest2.iml" />
