@@ -11,12 +11,16 @@ public class Voucher implements IPlata{
 
     @Override
     public void plateste(float notaPlata) {
-        if (this.nrVouchere*this.valoareVoucher>notaPlata)
-        {
-            System.out.println("Ati platit cu vouchere");
-            this.nrVouchere = this.valoareVoucher - (int)notaPlata/this.valoareVoucher;
-            System.out.println("Mai aveti " + this.nrVouchere + " vouchere");
-        }
 
+
+        int vouchereNecesare = (int)Math.ceil(notaPlata / this.valoareVoucher);
+
+        if (this.nrVouchere >= vouchereNecesare) {
+            System.out.println("Ati platit cu vouchere");
+            this.nrVouchere -= vouchereNecesare;
+            System.out.println("Mai aveti " + this.nrVouchere + " vouchere");
+        } else {
+            System.out.println("Fonduri insuficiente ");
+        }
     }
 }

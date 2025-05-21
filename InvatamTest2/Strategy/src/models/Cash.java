@@ -10,7 +10,7 @@ public class Cash implements IPlata{
     @Override
     public void plateste(float notaPlata) {
         if (this.bancnota>notaPlata){
-            System.out.println("Restul dumneavoastra este: " + (this.bancnota-notaPlata) + "lei");
+            System.out.println("Restul dumneavoastra este: " + (this.bancnota-notaPlata) + " lei");
         }
         else System.out.println("Fonduri insuficiente");
 
